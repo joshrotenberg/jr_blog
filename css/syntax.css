@@ -1,0 +1,90 @@
+/* A modified pandoc syntax.css file. Needs lots of work. */
+pre {
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    padding: 6px 10px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    color: #839496;
+    background: #002b36;
+
+}
+
+sourceCode {
+    border: 1px solid #eaeaea;
+    margin: 0px 2px;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+pre code {
+    color: #839496;
+}
+
+pre sourceCode {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.sourceCode {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    color: #839496;
+    font-weight: normal;
+    background: #002b36;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+pre, pre sourceCode {
+    font-size: 13px;
+}
+
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode, table.sourceCode pre
+   { margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; }
+td.lineNumbers { border-right: 1px solid #AAAAAA; text-align: right; color: #AAAAAA; padding-right: 5px; padding-left: 5px; }
+td.sourceCode { padding-left: 5px; }
+
+/* keyword */
+pre.sourceCode span.kw { color: #2AA198; }
+
+/* data type */
+pre.sourceCode span.dt { color: #6c71c4; font-weight: bold; }
+
+/* decimal value */
+pre.sourceCode span.dv { color: #2aa198; }
+
+/* base N */
+pre.sourceCode span.bn { color: #2aa198; }
+
+/* float */
+pre.sourceCode span.fl { color: #2aa198; }
+
+/* char */
+pre.sourceCode span.ch { color: #2aa198; }
+
+/* string token */
+pre.sourceCode span.st { color: #2AA198; }
+
+/* comment */
+pre.sourceCode span.co { color: #586e75; font-style: italic; }
+
+/* other */
+pre.sourceCode span.ot { color: #b58900; font-weight:bold; }
+
+/* alert */
+pre.sourceCode span.al { color: #CB4B16; font-weight: bold; }
+
+/* function */
+pre.sourceCode span.fu { color: #268BD2; font-style: bold; }
+
+/* region marker */
+pre.sourceCode span.re { }
+
+/* error */
+pre.sourceCode span.er { color: #93a1a1; font-weight: bold; }
+

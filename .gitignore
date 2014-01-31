@@ -1,0 +1,17 @@
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+.DS_Store
+.sass-cache
+Compiler
+Context
+_cache
+*~
+site
+drafts
+.cabal-sandbox/
+cabal.sandbox.config

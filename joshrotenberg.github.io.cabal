@@ -1,0 +1,19 @@
+name:                joshrotenberg
+version:             0.1.0.0
+synopsis:            josh rotenberg's site
+description:         my hakyll setup
+homepage:            http://joshrotenberg.github.io
+license:             BSD3
+license-file:        LICENSE
+author:              josh rotenberg
+maintainer:          joshrotenberg@gmail.com
+copyright:           2014 josh rotenberg
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable site
+  main-is: site.hs
+  build-depends: base       >= 4.5.0.0
+               , hakyll     
+               , old-locale >= 1.0.0.4
+               , time       >= 1.4
